@@ -99,6 +99,8 @@ const getProfile = async (req, res) => {
     }
 }
 
+  
+
 // API to update user profile
 const updateProfile = async (req, res) => {
 
@@ -188,6 +190,8 @@ const bookAppointment = async (req, res) => {
 }
 
 // API to cancel appointment
+
+
 const cancelAppointment = async (req, res) => {
     try {
 
